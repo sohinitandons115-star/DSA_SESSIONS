@@ -34,3 +34,17 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 ✔ Fast and optimized
 ✔ Demonstrates use of data structures
+
+Third problem we did was for the Left Rotate Array by One Place problem, a fundamental concept in Data Structures and Algorithms. The task involves shifting all elements of an array one position to the left and moving the first element to the end.
+👥 Team Contribution
+Java Implementation: Done by me
+C++ Implementation: Done by my partner
+Both implementations follow the same logic but are written in different programming languages to demonstrate cross-language understanding.
+⚙️ Approach Used
+The first element of the array is stored in a temporary variable.
+All remaining elements are shifted one position to the left.
+The stored element is placed at the end of the array.
+This approach performs the rotation in-place, without using any extra array.
+⏱️ Time and Space Complexity
+Time Complexity: O(n) — each element is shifted once
+Space Complexity: O(1) — only one extra variable is used
