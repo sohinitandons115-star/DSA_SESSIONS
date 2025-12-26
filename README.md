@@ -45,6 +45,8 @@ The first element of the array is stored in a temporary variable.
 All remaining elements are shifted one position to the left.
 The stored element is placed at the end of the array.
 This approach performs the rotation in-place, without using any extra array.
+
+Lemonade Change is an easy greedy problem where each lemonade costs $5 and customers pay using $5, $10, or $20 bills. The goal is to give correct change to every customer in order, starting with no money. We maintain counts of available $5 and $10 bills and process customers one by one. For a $10 bill, we return one $5, and for a $20 bill, we greedily return a $10 and a $5 if possible, otherwise three $5 bills. If change cannot be given at any point, we return false. The algorithm runs in O(n) time and uses O(1) extra space.
 ⏱️ Time and Space Complexity
 Time Complexity: O(n) — each element is shifted once
 Space Complexity: O(1) — only one extra variable is used
