@@ -5,7 +5,7 @@ public class lemonade_change {
          int n = sc.nextInt(); 
          int[]bills = new int[n];
          boolean result = true;
-
+ 
          for(int i=0;i<n;i++){
             bills[i] = sc.nextInt();
          }
